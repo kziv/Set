@@ -1,20 +1,9 @@
 /**
  * Set game
- * JavaScript version of the popular card game Set. See http://www.setgame.com/set/index.html
- * for the official game site and more information.
- * @todo : (BUG) Why don't later rounds of getNewCard show correct title?
- * @todo : Optimize/audit code
- * @todo : Store all sets on creation and only update stack when a set is cleared and new sets are put down.
- *         This will reduce the amount of processing needed to calculate the total sets and whether a set of
- *         3 cards is a valid Set.
- * @todo : Yank most of this out into PHP for security (no cheating!) Two versions maybe?
- * @todo : Store/show set stats (e.g. 3 matched color sets, 4 different shape sets)
- * @todo : Multiple decks :)
- * @todo : Show why non-sets are not a set (e.g. "2 cards are diamonds, 1 is squiggle")
- * @todo : Dynamically generate cards by bitflags (e.g., 0321.png = shape 0, count 3, color 2, fill 1)
- * @todo : Dynamically generate card images in PHP (and stop stealing from the original Set online assets!)
- * @todo : Adjust board size based on number of cards on playing field
+ * JavaScript version of the popular card game Set
  * @author Karen Ziv <karen@perlessence.com>
+ * @see    http://wiki.github.com/foobarbazquux/Set - code documentation
+ * @see    http://www.setgame.com/set/index.html - official game site
  **/
 (function() {
 
