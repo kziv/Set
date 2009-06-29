@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en-us" />
+<title>Set Game</title>
+
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/reset-fonts-grids/reset-fonts-grids.css" />
+<link rel="stylesheet" type="text/css" href="set.css" media="all"  />
+
+<script language="javascript" type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/utilities/utilities.js"></script>
+<script language="javascript" type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/button/button-min.js"></script>
+<script language="javascript" type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container_core-min.js"></script>
+<script language="javascript" type="text/javascript" src="set.js"></script>
+
+</head>
+<body>
+
+    <h1>Set Game</h1>
+
+    <p>Each card has 4 attributes: color, shape, fill, count. Select 3 cards where, for each attribute,
+       the values are all the same or all different. Example: one red solid diamond, two purple solid diamonds,
+       three green solid diamonds. Color and count are different in the three cards, and shape and fill are the same.</p>
+
+    <p>For more information, visit the <a href="http://www.setgame.com/" target="_blank">official game site</a>.</p>
+
+    <h4>Score: <span id="score">0</span></h4>
+
+    <div class="game_menu">
+        <button id="find_sets">Find Sets</button>
+        <button id="find_third">Find Third</button>
+        <button id="add_row">Add Another Row</button>
+    </div>
+
+    <fieldset id="game"></fieldset>
+
+</body>
+</html>

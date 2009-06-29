@@ -1,0 +1,38 @@
+/**
+ * Set game display styles
+ **/
+body {
+ height: 100%;
+}
+
+button {
+ float: left;
+}
+
+#game {
+ clear: left;
+ margin: 0 auto;
+ margin-top: 20px;
+ width: 440px;
+ height: 225px;
+ border: 5px solid #000;
+ padding: 0 10px 10px 0;
+ background: #fff;
+}
+
+#game button {
+ width: 97px;
+ height: 62px;
+ border: 2px solid #000;
+ margin: 10px 0 0 10px;
+ font-size: 0;
+ text-indent: -5000em;
+}
+
+#game .yui-button-focus button {
+    border-color: #0f0;
+}
+
+#game .yui-button-checked button {
+    border-color: #f00;
+}
