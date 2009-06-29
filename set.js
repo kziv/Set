@@ -135,7 +135,7 @@
         this.board[btn_num].set('label', 'Card ' + card.toString() );
         
         var real_btn = this.board[btn_num].getElementsByTagName('button');
-        Dom.setStyle(real_btn[0], 'background', 'url(/src/apps/set/cards/'+ card.toString() +'.gif)');
+        Dom.setStyle(real_btn[0], 'background', 'url(cards/'+ card.toString() +'.gif)');
         
         this.cards[card].status = -1;
         this.unused_cards--;
